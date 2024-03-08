@@ -59,7 +59,7 @@ files
 
 includedirs
 {
-    "freetype/include"
+    "freetype/include",
 }
 
 defines
@@ -103,13 +103,15 @@ files
     "ext/**.hpp",
     "ext/**.cpp",
     "lib/**.cpp",
-    "include/**.h"
+    "include/**.h",
+    "msdfgen-config.h"
 }
 
 includedirs
 {
     "include",
-    "freetype/include"
+    "freetype/include",
+    "%{IncludeDir.tinyxml2}",
 }
 
 defines
