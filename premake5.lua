@@ -114,7 +114,8 @@ includedirs
 
 defines
 {
-    "MSDFGEN_USE_CPP11"
+    "MSDFGEN_USE_CPP11",
+    "MSDFGEN_PUBLIC=__declspec(dllexport)"
 }
 
 links
