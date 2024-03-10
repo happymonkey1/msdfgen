@@ -51,6 +51,8 @@ files
     "freetype/src/sdf/sdf.c",
     "freetype/src/sfnt/sfnt.c",
     "freetype/src/smooth/smooth.c",
+    "freetype/src/svg/ftsvg.c",
+    "freetype/src/svg/svg.c",
     "freetype/src/truetype/truetype.c",
     "freetype/src/type1/type1.c",
     "freetype/src/type42/type42.c",
@@ -88,7 +90,7 @@ symbols "off"
 project "msdfgen"
 kind "StaticLib"
 language "C++"
-cppdialect "C++17"
+cppdialect "C++20"
 staticruntime "off"
 
 targetdir("bin/" .. outputdir .. "/%{prj.name}")
